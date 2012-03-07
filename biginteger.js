@@ -346,7 +346,7 @@ BigInteger.parse = function(s, base) {
 		s = expandExponential(s);
 	}
 
-	var parts = /^([+\-]?)(0[xXcCbB])?([0-9A-Za-z]*)(?:\.\d*)?$/.exec(s);
+	var parts = /^([+\-]?)(0[xX])?([0-9A-Za-z]*)(?:\.\d*)?$/.exec(s);
 	if (parts) {
 		var sign = parts[1] || "+";
 		var baseSection = parts[2] || "";
