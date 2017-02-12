@@ -1,0 +1,26 @@
+{
+  "name": "javascript-biginteger",
+  "version": "1.0.0",
+  "description": "A big integer library for JavaScript",
+  "main": "biginteger.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./run-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silentmatt/javascript-biginteger.git"
+  },
+  "keywords": [
+    "big",
+    "integer"
+  ],
+  "author": "Matthew Crumley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silentmatt/javascript-biginteger/issues"
+  },
+  "homepage": "https://github.com/silentmatt/javascript-biginteger#readme"
+}
